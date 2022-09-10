@@ -2,7 +2,7 @@
   display:flex
 }
 .right{
-  width: calc(100vw-300px);
+  width: calc(100vw - 300px);
   background-color: #ffffff;
 }
 .left{
@@ -27,16 +27,20 @@
 .right_header{
   height: 100px;
   padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
 }
 .messages{
   background-color: #FAFAFA;
   height: calc(100vh - 100px - 90px);
   padding: 46px 40px 0;
+  overflow: scroll;
 }
 .send{
   background-color: #DDDDDD;
   height: 90px;
   padding: 20px 40px;
+  display: flex;
 }
 .account_name a{
 font-size: 16px;
@@ -56,4 +60,74 @@ text-decoration: none;
 .room_name a{
   color:white;
   text-decoration: none;
+}
+.group_name{
+  font-size: 24px;
+  color: #333;
+  margin-top: 36px;
+}
+.header_icon{
+  margin-top: 40px;
+}
+.header_icon a{
+color:darkred;
+border:1px solid darkred;
+padding:20px;
+text-decoration: none;
+}
+.messages_main1{
+  margin:10px 0 0 0;
+}
+.messages_main2{
+  display: flex;
+}
+.messages_name{
+  font-size: 16px;
+  color: #434A54;
+}
+.messages_log{
+  font-size: 12px;
+  color: #999;
+  padding-left: 10px;
+}
+.lower_messages{
+  margin-top: 10px;
+}
+.messages_text{
+  font-size: 14px;
+  color: #434A54;
+  margin-bottom: 40px;
+}
+.send_form{
+  background-color: white;
+  width: 100%;
+  display: flex;
+}
+.input_text{
+  height: 50px;
+  width: 100%;
+  padding-left: 10px;
+  border: none;
+}
+.submit_btn{
+  height: 50px;
+  color: white;
+  background-color: #38AEF0;
+  padding: 0 20px;
+  font-size: 16px;
+  margin-left: 15px;
+  border: none;
+}
+.form-image {
+  font-size: 12px;
+  background-color: lightblue;
+  color: white;
+  padding: 12px;
+  width: 60px;
+  margin: 5px 10px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
 }
